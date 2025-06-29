@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensagem Secreta</title>
+  <style>
+    #mensagem {
+      display: none;
+      font-size: 20px;
+      color: purple;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="mostrar()">Clique para revelar</button>
+  <div id="mensagem">✨ Você é incrível! ✨</div>
+
+  <script>
+    function mostrar() {
+      document.getElementById("mensagem").style.display = "block";
+    }
+  </script>
+</body>
+</html>
